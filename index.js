@@ -19,8 +19,6 @@ function SendMsg(x) {
                 element.SenderData.push(document.getElementById('Sender_data').value);
                 localStorage.setItem('Whatsapp', JSON.stringify(UserWork));
                 showMsg();
-            } else {
-                alert('Do Not Send empty Msg');
             }
         }
         if (x == '0') {
@@ -29,9 +27,7 @@ function SendMsg(x) {
                 element.ReciverData.push(document.getElementById('Reciver_data').value);
                 localStorage.setItem('Whatsapp', JSON.stringify(UserWork));
                 showMsg();
-            } else {
-                alert('Do Not Send Empty Data')
-            }
+            } 
         }
     });
     location.reload();
