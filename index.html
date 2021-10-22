@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <fieldset>
+        <div class="container">
+            <fieldset>
+                <div class="sender">
+                    <center>
+                        <h1 class="trans">I am Transmeter</h1>
+                        <input type="text" id="Sender_data" value=""><br>
+                        <button type="submit" id="send1"onclick="SendMsg(1)">Send</button>
+                        <button type="submit" id="update1" >Update</button>
+                    </center>
+                    <div class="conversion">
+                        <fieldset>
+                            <ul id="massages0">
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                            <ul id="Msg1">
+                            </ul>
+                        </fieldset>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="reciver">
+                    <center>
+                        <h1 class="Reci">I am Reciver</h1>
+                        <input type="text" id="Reciver_data" value=""><br>
+                        <button type="submit" id="send0" onclick="SendMsg(0)">Send</button>
+                        <button type="submit" id="update0">Update</button>
+                    </center>
+                    <div class="conversion">
+                        <fieldset>
+                            <ul id="Msg0">
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                            <ul id="massages1">
+                            </ul>
+                        </fieldset>
+                        
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </fieldset>
+    </fieldset>
+    <script src="index.js"></script>
+</body>
+</html>
+

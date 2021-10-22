@@ -1,0 +1,84 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-10/css/all.min.css);
+.container{
+    background-color: rgb(139, 250, 204);
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.sender{
+    width: 39rem;
+}
+.reciver{
+    width: 39rem;
+}
+.conversion{
+    display: flex;
+    border: solid;
+    width: 38rem;
+    height: auto;
+}
+#massages1{
+    width: 14rem;
+    color: darkblue;
+}
+
+#massages0{
+    width: 14rem;
+    color: darkblue;
+}
+#Msg1{
+    width: 14rem;
+    color: rgb(253, 6, 39);
+}
+#Msg0{
+    width: 14rem;
+    color: rgb(253, 6, 39);
+}
+li{
+list-style: none;
+}
+.test{
+    text-align: left;
+}
+.jai{
+    float: right;
+    color: limegreen;
+}
+  br {
+    visibility: hidden;
+}
+fieldset{
+    border: hidden;
+}
+#send1{
+    border-radius: 1rem;
+    color: deepskyblue;
+}
+#send0{
+    color: green;
+    border-radius: 1rem;
+}
+#update1{
+    color: green;
+  
+    border-radius: 1rem;
+}
+#update0{
+    color: deepskyblue;
+    border-radius: 1rem;
+}
+.yalgar{
+    border-radius: 1.2rem;
+    color: limegreen;
+}
+.yalgarho{
+    border-radius: 1.2rem;
+    color: magenta;
+}
+
+.Reci{
+    color: purple;
+}
+.trans{
+    color: royalblue;
+}
