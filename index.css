@@ -1,6 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-10/css/all.min.css);
 .container{
-    background-color: rgb(139, 250, 204);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
     display: flex;
     height: auto;
     width: 100%;
